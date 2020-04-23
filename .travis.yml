@@ -6,6 +6,10 @@ python:
 install:
   - pip install flask
   - pip install mock
+  - pip install requests
+  - pip install requests-cache
+  - pip install json
+  
   
 # command to run tests
 script:
